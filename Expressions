@@ -1,0 +1,34 @@
+package lectures
+
+object Expressions extends App {
+
+  val x = 2+3
+  println(x)
+  println(!(1==x))
+
+  var avar = 2
+
+  avar += 3
+  println(avar)
+
+
+  val  acondation = true
+  val  aaccondtion = if (acondation) "5555" else  333
+
+  println(aaccondtion)
+
+  var i = 0
+
+  while (i<10){
+    println(i)
+    i +=1
+  }
+
+  var aCodeBlock = {
+    val x =1
+    val z = x+2
+    if (z>1) "dddd" else "goood"
+  }
+
+  println(aCodeBlock)
+}
