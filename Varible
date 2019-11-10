@@ -1,0 +1,29 @@
+package lectures
+
+object Varible extends App {
+
+  val x: Int = 23
+  println(x)
+
+ var y =32
+
+  println(x + y)
+  println(y)
+  y = 3
+
+  val astring : String = "hello in "; val a2string = "scala"
+  println(astring + "" + a2string)
+
+  val aboolean = true
+
+
+
+  val sss : Double = 333.444
+
+
+  val along : Long = 23532452345324L
+
+
+
+
+}
