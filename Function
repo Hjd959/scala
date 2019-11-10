@@ -1,0 +1,36 @@
+package lectures
+
+object Function extends App {
+
+
+  def aFunction(a:String, b:Int) :String = {
+    a + " " + b
+  }
+
+
+
+println(aFunction("mazn good man i like athhad ", 18))
+
+
+  def  parameterLessFunction():Int = 3
+
+
+  println(parameterLessFunction())
+  println(parameterLessFunction)
+
+  def  avoidFunction (aSreing :String):Unit = println("srllo")
+
+  avoidFunction("ali")
+
+  def  aBigfunction (n:Int):Int = {
+    def asmallFunction(a : Int,b:Int):Int = a+b
+    asmallFunction(2,4)
+    asmallFunction(n , n-1)
+  }
+
+
+println(aBigfunction(6))
+
+
+
+}
